@@ -1,0 +1,142 @@
+html {
+    scroll-behavior:smooth !important;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://ssl.c.photoshelter.com/img-get2/I00000_a_bGDXbzc/fit=1000x750/Dead-Desert-Trees-at-Dead-Vlei.jpg");
+    background-size: cover;
+}
+#pic {
+    opacity: 1;
+    margin-right: 2rem;
+}
+.parap{
+    color: rgb(92, 90, 90);
+    font-weight:normal  !important;
+}
+#nav-ls{
+    display: flex;
+    align-items: center;
+}
+#navbar-sticky{
+    font-size: 1.15rem !important;
+}
+#project-h{
+    text-align: center;
+    margin-bottom: 4%;
+}
+#projects{
+    margin-top: 30px;
+    padding-bottom: 3%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    
+}
+#projects > div {
+    background-color: #f1f1f1;
+}
+#profile {
+    width: 50%; /* Add space between sections */
+}
+#pic {
+    width: 80%;
+    height: 100%;
+}
+
+#mongoose{
+    margin-left: 100px;
+}
+
+#hi{
+    width: 50%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+  }
+  #used{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+#about-me {
+    background-image: url(./resources/2150530981.jpg);
+}
+
+
+@media screen and (max-width: 768px) {
+    #nav-ls{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #projects{
+        margin-top: 30px;
+        padding-bottom: 3%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    #home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+     
+    }
+    #h1s{
+        font-size: 60px;
+    }
+    
+    
+  
+    
+
+    #hi{
+        margin: 0;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #pic {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+         border-radius: 50%;
+        
+       
+    }
+    
+    #profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        order: -1;
+        margin-top: 80px !important;
+        margin-left: 30px !important;
+        margin: 0;
+        margin-left: 15px;
+      
+
+    }
+}
